@@ -27,3 +27,11 @@ function apiSearch() {
             alert('error');
         });
 }
+
+function search() {
+    apiSearch()
+}
+
+$("#search-button").click(function () {
+    search();
+});
