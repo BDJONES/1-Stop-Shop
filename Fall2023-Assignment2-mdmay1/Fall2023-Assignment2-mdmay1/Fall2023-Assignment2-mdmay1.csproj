@@ -7,4 +7,8 @@
     <RootNamespace>Fall2023_Assignment2_mdmay1</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Photos\" />
+  </ItemGroup>
+
 </Project>

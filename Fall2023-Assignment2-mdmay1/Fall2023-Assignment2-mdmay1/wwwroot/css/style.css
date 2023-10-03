@@ -1,0 +1,92 @@
+body {
+    background: url(../Photos/Background1.jpg) no-repeat center bottom fixed;
+    /*background-position: center;*/ /* center the image */
+    background-size: cover;
+    width: 95%;
+    height: 100%;
+/*    background-repeat: no-repeat;*/
+}
+
+#ui {
+    /*    height: 95%;
+    width: 100%;    */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#website-name {
+    display: flex;
+    justify-content: center;
+    color:white
+}
+
+#searching {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+/*    align-items: center;*/
+}
+
+#function-buttons {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#searchResults {
+    background-color: blue;
+    visibility: hidden;
+}
+
+#time {
+    visibility: hidden;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color:khaki;
+}
+
+#website-top {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.ui-dialog .ui-dialog-content {
+    color:blue;
+    background-color: khaki !important;
+}
+
+.ui-widget-content a {
+    color:red !important;
+}
+
+.content-box-style {
+    width: 30%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.8);
+    border-radius: 8px;
+    padding: 3px;
+    margin: 5px;
+}

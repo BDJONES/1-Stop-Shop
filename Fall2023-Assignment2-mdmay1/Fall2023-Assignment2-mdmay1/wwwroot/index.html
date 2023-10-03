@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Name of the website</title>
-        <link rel="stylesheet" href="./css/style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    </head>
+<head>
+    <title>1Stop</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha384-UG8ao2jwOWB7/oDdObZc6ItJmwUkR/PfMyt9Qs5AwX7PsnYn1CRKCTWyncPTWvaS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css" integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+</head>
 
     <body>
-        <h1>Name of the Website</h1>
-        <label for="search-bar">Search: </label>
-        <input type="text" id="query" name="search-bar">
-        <input type="submit" id="search-button" value="Search" />
-        <button id="time-button">Time</button>
+
+        <div id="ui" class="content-box-style">
+            <div id="website-top">
+                <img id="logo" src="Photos/coffee logo.png"/>
+                <h1 id="website-name">1Stop</h1>
+            </div>
+            <div id="searching">
+                <div id="search-bar">
+                    <!--<label for="search-bar">Search: </label>-->
+                    <input type="text" id="query" name="search-bar">
+                </div>
+                <div id="function-buttons">
+                    <input type="submit" id="search-button" value="Search" />
+                    <button id="time-button">Time</button>
+                </div>
+            </div>
+        </div>
         <div id="searchResults"></div>
         <div id="time"></div>
         <script type="text/javascript" src="./js/script.js"></script>
