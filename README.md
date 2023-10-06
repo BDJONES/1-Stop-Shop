@@ -33,8 +33,3 @@ You can access the "1 Stop Shop Project" web service by visiting the following l
 3. View the search results displayed on the page.
 
 4. To check the current time, click on the "Time" button.
-- Contributors to open-source libraries and frameworks used in this project.
-
----
-
-Feel free to use this content as your README.md file for your "1 Stop Shop Project." Make sure to replace `https://fall2023-assignment2-bdjones15.azurewebsites.net/` with the actual URL of your web service.
